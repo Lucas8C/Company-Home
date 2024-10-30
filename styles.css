@@ -1,0 +1,191 @@
+ul,
+li,
+a,
+img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #d5d5d5;
+}
+
+/* Navigation bar */
+.top-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Left-nav {
+    margin-right: auto;
+}
+
+.Right-nav {
+    margin-left: 1rem;
+}
+
+.top-list img {
+    width: 22px;
+    height: 22px;
+}
+
+/* Navigation bar ^^^^ */
+
+.Ipad-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Screenshot\ 2024-10-28\ at\ 13.12.46.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 100%;
+}
+
+.Ipad-text h1,
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Ipad-text h2 {
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+.Ipad-text h1 {
+    font-size: 48px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #0088ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.staff h1,
+h3,
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.staff-image {
+    float: none;
+    margin-right: 10px;
+    width: 310px;
+    height: 200px;
+    border: 3px solid #0088ff;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-text-container img {
+    max-width: 50%;
+    height: auto;
+}
+
+.image-text-container p {
+    margin: 0;
+}
+
+@media (max-width: 600px; ) {}
+
+@media screen (max-width: 800px; ) {}
+
+.Products {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Products div {
+    flex: 1 1 calc(50% - 10px);
+    height: calc(50% - 10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.Products .top-left {
+    background-image: url(./Airpods\ 4.png);
+    background-position: center;
+}
+
+.Products .top-right {
+    background-image: url(./Airpods\ Pro.png);
+    top: 0;
+    right: 0;
+    background-position: center;
+}
+
+.Products .bottom-watch {
+    bottom: 0;
+    left: 0;
+    background-image: url(./Apple\ Watch.png);
+    background-position: center;
+}
+
+.Products .bottom-ipad {
+    bottom: 0;
+    right: 0;
+    background-image: url(./iPad\ mini.png);
+    background-position: center;
+}
+
+.top-left,
+.top-right {
+    color: white;
+}
+
+.Products .top-left,
+.top-right,
+.bottom-ipad,
+.bottom-watch p {
+    font-weight: 550;
+}
+
+.Products .bottom-ipad p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
